@@ -1,0 +1,50 @@
+name: PhysikApps_Simulationen
+description: PhysikApps Simulationen
+version: 1.0.0+8
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Web-Interop für die Tonausgabe des Rubensschen Flammenrohres (Web Audio API).
+  flutter_soloud: ^4.0.11
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # Das Package für die Icon-Generierung
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logos/
+    - assets/images/
+    - assets/audio/
+    - assets/data/
+    # Liefert dem Hinweisfenster die Versionsnummer (home_info.dart) – so
+    # steht sie nur hier oben unter „version:“.
+    - pubspec.yaml
+
+# Konfiguration der App-Icons für alle Plattformen
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true # Entfernt die Warnung für Apple
+  image_path: "assets/logos/logo.png"
+  windows:
+    generate: true
+    image_path: "assets/logos/logo.png"
+    icon_size: 256
+  # Die Web-Icons werden nicht erzeugt, sondern von Hand gepflegt
+  # (web/icons/): Android beschneidet die „maskable"-Fassung auf einen Kreis,
+  # deshalb sitzt der Schriftzug dort kleiner in der Mitte als bei den
+  # übrigen Icons. Diesen Unterschied kennt das Paket nicht – ein Lauf mit
+  # „generate: true" würde beide Fassungen gleich machen und die Schrift
+  # abschneiden.
+  web:
+    generate: false

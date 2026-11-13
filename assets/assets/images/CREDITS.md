@@ -37,3 +37,11 @@
   https://commons.wikimedia.org/wiki/File:2023-04-20_Solar_Eclipse_in_Timor-Leste_3_(cropped).jpg
 - **Heruntergeladen am:** 19.06.2026
 - **Bearbeitung:** auf 1200 px Breite skaliert; ansonsten unverändert.
+
+## lc_schwingkreis_aufbau.jpg
+
+- **Motiv:** Versuchsaufbau zum LC-Schwingkreis (Spule, Kondensator mit
+  Wechselschalter, Zeigerinstrument, Netzgerät) – Foto im Kachel-Schaltbild
+  der Simulation R050.
+- **Urheber/Quelle:** eigene Aufnahme (Bildschirmfoto vom 13.11.2026)
+- **Bearbeitung:** als JPEG (Qualität 80) gespeichert, 819 × 574 px.

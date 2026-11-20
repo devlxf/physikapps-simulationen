@@ -1,6 +1,6 @@
 name: PhysikApps_Simulationen
 description: PhysikApps Simulationen
-version: 1.0.0+8
+version: 1.2.0+10
 
 environment:
   sdk: '>=3.8.0 <4.0.0'
@@ -10,6 +10,7 @@ dependencies:
     sdk: flutter
   # Web-Interop für die Tonausgabe des Rubensschen Flammenrohres (Web Audio API).
   flutter_soloud: ^4.0.11
+  url_launcher: ^6.3.3
   web: ^1.1.0
 
 dev_dependencies:
